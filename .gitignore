@@ -1,0 +1,66 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+*.iml
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules/
+
+# IDEs and editors
+/.vscode
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+yarn-error.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+/projects/v-hive-app/src/app/local-developer.config.ts
+localhost.crt
+localhost.key
+npxng4200-no-aot.sh
+npxng4200.sh
+npxng4200de.sh
+npxng4200es.sh
+
+#bim
+bim/assets/bimTiles
+bim/assets/ccTiles
+bim/assets/box1.glb
+bim/assets/box2.glb
+bim/assets/mw.glb
+bim/assets/panel.glb
+bim/Cesium
+
+.nvmrc
